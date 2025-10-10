@@ -1,0 +1,5 @@
+# Ignore specific image file
+PersonalWebsite/personalPage/public/Image0.jpg
+
+# Ignore specific contact form file
+PersonalWebsite/personalPage/src/Contact.tsx
