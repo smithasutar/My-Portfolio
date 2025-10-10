@@ -1,0 +1,104 @@
+.skills-section {
+  background-color: white;
+  min-height: 30vh;     /* reduce height from 50vh */
+  display: flex;
+  align-items: center;  /* vertically center the circles in the section */
+  justify-content: center; /* center horizontally if needed */
+  overflow: hidden;     /* hide overflow for carousel effect */
+  padding: 40px 0;      /* optional: small top and bottom padding */
+}
+
+.skills-grid {
+  display: flex;
+  gap: 60px;
+  flex-wrap: nowrap; /* keep in a single row */
+  animation: scroll 20s linear infinite;
+}
+
+
+.skill-item {
+  flex: 0 0 auto; /* prevent shrinking */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 15px; */
+}
+
+.skill-icon {
+  width: 120px;       /* large circles */
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.skill-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.skills-grid {
+  display: flex;
+  gap: 60px;
+  flex-wrap: nowrap;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* move exactly half, since we duplicated */
+  }
+}
+
+
+/* Optional: pause on hover */
+.skills-grid:hover {
+  animation-play-state: paused;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skill-icon {
+    width: 100px;
+    height: 100px;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-icon {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+  }
+}
+
+
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}

@@ -1,0 +1,183 @@
+.experience-section {
+  padding: 40px 0;   /* reduced from 80px */
+  background-color: #f8f9fa;
+  min-height: auto;  /* optional, let content define height */
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* ensures content stacks vertically */
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px; /* reduced from 60px */
+  color: #1A1F36;
+}
+
+.carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1000px;
+  transition: transform 0.3s ease;
+}
+
+.experience-card {
+  background: #1A1F36;
+  color: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  text-align: center;
+  min-width: 300px;
+  flex: 1;
+  box-shadow: 0 10px 30px rgba(26, 31, 54, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(26, 31, 54, 0.3);
+}
+
+.card-icon {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.card-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: 2px solid #1A1F36;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1A1F36;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.carousel-btn:hover {
+  background: #1A1F36;
+  color: white;
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 4px 15px rgba(26, 31, 54, 0.3);
+}
+
+.carousel-btn:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.prev-btn {
+  left: -25px;
+}
+
+.next-btn {
+  right: -25px;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #1A1F36;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  background: #1A1F36;
+}
+
+.dot:hover {
+  background: #1A1F36;
+  transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .experience-section {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .carousel-track {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .experience-card {
+    min-width: 100%;
+    padding: 30px 20px;
+  }
+  
+  .carousel-btn {
+    display: none;
+  }
+  
+  .carousel-dots {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 28px;
+  }
+  
+  .experience-card {
+    padding: 25px 15px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,14 @@
+section, .component {
+  margin: 0;       /* Remove any default margins */
+  padding: 10px 0; /* Optional: small vertical padding */
+}
+
+h1, h2, h3, p {
+  margin: 0;       /* Remove extra space from headings & paragraphs */
+  padding: 0;
+}
+
+/* Optional: reduce line height for tighter text spacing */
+body {
+  line-height: 1.4;
+}
