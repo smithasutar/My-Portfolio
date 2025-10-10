@@ -24,12 +24,11 @@ It serves as both a professional landing page and a contact platform for potenti
 **Frontend:**
 - React / Preact
 - TypeScript
-- CSS3 (Custom / Tailwind optional)
+- CSS3
 - EmailJS (for contact form integration)
 
 **Deployment:**
-- Vercel / Netlify / GitHub Pages
+- Vercel
 
 ---
 
-## 🧩 Project Structure
