@@ -1,3 +1,5 @@
+NOTE TO SELF HIDE MY PIC AND CONTACT INFO BEFORE MAKING PUBLIC
+
 # 🌐 Personal Portfolio Website
 
 This is my personal portfolio website built to showcase my projects, experience, and skills as a developer.  
