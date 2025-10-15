@@ -6,7 +6,8 @@ This is my personal portfolio website built to showcase my projects, experience,
 It serves as both a professional landing page and a contact platform for potential employers, collaborators, or anyone interested in my work.
 
 ## 🚀 Live Demo
-[View Website](https://your-website-link.com)
+https://smithasportfolio.netlify.app/
+CI/CD through netlify
 
 ---
 
