@@ -7,7 +7,7 @@ It serves as both a professional landing page and a contact platform for potenti
 
 ## 🚀 Live Demo
 https://smithasportfolio.netlify.app/
-CI/CD through netlify
+- CI/CD through netlify
 
 ---
 
