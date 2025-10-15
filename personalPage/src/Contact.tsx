@@ -2,6 +2,12 @@ import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
 
+const email = import.meta.env.email;
+const pub_key = import.meta.env.pub_key;
+const pub_temp = import.meta.env.pub_temp
+const pub_name = import.meta.env.pub_name
+
+
 export function Contact() {
   const [formData, setFormData] = useState({
     firstName: '',
@@ -27,15 +33,15 @@ export function Contact() {
       from_email: formData.email,
       subject: formData.subject,
       message: formData.message,
-      to_email: 'tommyy1239123@gmail.com'
+      to_email: email
     };
 
     emailjs
       .send(
-        'service_koedwc8',   
-        'template_rv4p5oa',
+        pub_key,   
+        pub_temp,
         templateParams,
-        'OcKhWr_ujymnsf7G2'
+        pub_name
       )
       .then(
         (response) => {
