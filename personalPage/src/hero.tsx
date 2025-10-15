@@ -1,5 +1,5 @@
 import HeroBackground from "./heroBackground.tsx";
-import './Hero.css';
+import './hero.css';
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
