@@ -1,5 +1,4 @@
 import HeroBackground from "./heroBackground.tsx";
-import About from "./aboutMe.tsx";
 import './Hero.css';
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
