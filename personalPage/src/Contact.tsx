@@ -2,10 +2,10 @@ import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
 
-const email = import.meta.env.email;
-const pub_key = import.meta.env.pub_key;
-const pub_temp = import.meta.env.pub_temp
-const pub_name = import.meta.env.pub_name
+const email = import.meta.env.VITE_EMAIL;
+const pub_key = import.meta.env.VITE_PUBLIC_KEY;
+const pub_temp = import.meta.env.VITE_TEMPLATE_ID
+const pub_name = import.meta.env.VITE_SERVICE_ID
 
 
 export function Contact() {
