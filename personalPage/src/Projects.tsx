@@ -14,7 +14,7 @@ const projects: Project[] = [
     id: 1,
     title: "onTrack",
     description: "onTrack is a simple and motivating Android app designed to help you start good habits and stay consistent with your personal goals. Track your daily routines, visualize progress, and stay accountable all in one minimal and beautiful app.",
-    image: "./public/Image1.png",
+    image: "/Image1.png",
     skills: ["Android Studio", "Kotlin", "Java"],
     githubUrl: "https://github.com/smithasutar/onTrack"
   },
@@ -22,7 +22,7 @@ const projects: Project[] = [
     id: 2,
     title: "ZenZone",
     description: "ZenZone is a simple web-based chat application that provides supportive, AI-powered conversations for mental wellness. It is not a replacement for professional care, but a space for calm, mindful interaction and emotional reflection.",
-    image: "./public/Image2.png",
+    image: "/Image2.png",
     skills: ["Python", "HTML", "CSS3", "JavaScript", "FastAPI"],
     githubUrl: "https://github.com/smithasutar/ZenZone"
   },
@@ -30,10 +30,9 @@ const projects: Project[] = [
     id: 3,
     title: "Portfolio Website",
     description: "A modern, responsive portfolio website showcasing projects and skills. An online resume to display my experience and skill set. Built with React and styled with CSS modules for optimal performance.",
-    image: "./public/Image.png",
+    image: "/Image.png",
     skills: ["TypeScript", "React", "CSS3", "Vite"],
     githubUrl: "https://github.com/smithasutar/My-Portfolio"
-
   },
   {
     id: 4,
@@ -42,7 +41,6 @@ const projects: Project[] = [
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop",
     skills: ["OpenCV", "C++", "Python"],
     githubUrl: "#"
-
   }
 ];
 

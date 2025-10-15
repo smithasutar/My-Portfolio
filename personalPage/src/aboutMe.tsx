@@ -21,7 +21,7 @@ function About() {
       <main className="about-main">
         <div className="about-content">
           <div className="about-image">
-            <img src="./public/Image0.jpg" alt="Profile" className="placeholder-circle" />
+            <img src="/Image0.jpg" alt="Profile" className="placeholder-circle" />
           </div>
           <div className="about-text">
             <p>
