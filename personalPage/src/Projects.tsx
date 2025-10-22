@@ -37,10 +37,10 @@ const projects: Project[] = [
   {
     id: 4,
     title: "Colourodinate",
-    description: "in progress",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop",
-    skills: ["OpenCV", "C++", "Python"],
-    githubUrl: "#"
+    description: "Colourodinate is a C++ application that detects faces in an image and identifies the skin undertone (cool, warm, or neutral) using OpenCV. It demonstrates computer vision techniques including face detection and color analysis.",
+    image: "/Image3.png",
+    skills: ["OpenCV", "C++"],
+    githubUrl: "https://github.com/smithasutar/Colourodinate"
   }
 ];
 
