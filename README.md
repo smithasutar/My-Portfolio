@@ -29,7 +29,7 @@ https://smithasportfolio.netlify.app/
 - EmailJS (for contact form integration)
 
 **Deployment:**
-- Vercel
+- Netlify
 
 ---
 
