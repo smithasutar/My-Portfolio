@@ -41,6 +41,14 @@ const projects: Project[] = [
     image: "/Image3.png",
     skills: ["OpenCV", "C++"],
     githubUrl: "https://github.com/smithasutar/Colourodinate"
+  },
+  {
+    id: 5,
+    title: "Kinder - Good Deeds Wall",
+    description: "Good Deeds Wall is a playful, uplifting web app where anyone can anonymously share a kind act they did or witnessed. It’s a small step toward making the internet a more positive and encouraging place 💖.",
+    image: "/Image4.png",
+    skills: ["TypeScript", "CSS3", "React", "Netlify", "MongoDB", "ExpressJS", "NodeJS"],
+    githubUrl: "https://github.com/smithasutar/Kind-er"
   }
 ];
 
