@@ -55,7 +55,7 @@ const projects: Project[] = [
     title: "Pinterest Trend Predictor",
     description: "This project predicts the next week's popularity score of Pinterest trends using an LSTM (Long Short-Term Memory) model. It reads historical trend data from a CSV file exported from Pinterest and provides predictions through a Flask API.",
     image: "/Image5.png",
-    skills: ["Python", "CSS3", "HTML", "JavaScript", "FlaskAPI", "Pytorch", "scikit-learn", "Pandas"],
+    skills: ["Python", "CSS3", "HTML", "JavaScript", "FlaskAPI", "Pytorch", "scikit-learn", "Pandas", " "],
     githubUrl: "https://github.com/smithasutar/Pinterest-Trend-Predictor"
   }
 ];
